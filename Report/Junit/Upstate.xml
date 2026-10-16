@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="146.625" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-16T14:11:58.271023300Z">
+<testcase classname="Upstate Medical Associates Billing Information" name="Navigate to Billing Information page" time="9.063">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user clicks the Billing link...........................................passed
+Then the Billing Information page should open...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Billing Information" name="Validate prescription fee description" time="8.955">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user navigates to the Billing Information page.........................passed
+Then the description for "$25.00 – Prescription Fee" should be displayed....passed
+And the description should be "All prescriptions requested outside of visits and office hours".passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us Page Validation" name="Validate Contact Us page and Google Map" time="12.334">
+<system-out><![CDATA[
+When user clicks Contact Us.................................................passed
+And Contact Us page should open.............................................passed
+Then Google Map should be displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us Page Validation" name="Validate Contact Us form fields" time="11.467">
+<system-out><![CDATA[
+Given user is on the Contact Us page........................................passed
+When user navigate through Contact us fields................................passed
+Then Name field should be displayed.........................................passed
+And Phone field should be displayed.........................................passed
+And Email field should be displayed.........................................passed
+And Message field should be displayed.......................................passed
+And Privacy checkbox should be displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us Page Validation" name="Enter and validate Contact Us form details" time="10.805">
+<system-out><![CDATA[
+When user enters name, phone, email, mesaage fields.........................passed
+And user selects the privacy checkbox.......................................passed
+Then entered form details should be correct.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user need to navigate and verify the options in Upstate Medical Associates Home Page" name="Verify the page title and Handle contact number alert" time="13.205">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user need to verify page title.........................................passed
+And user clicks the contact number section..................................passed
+Then user should be able to dismiss the alert...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="user need to navigate and verify the options in Upstate Medical Associates Home Page" name="Validate Leave A Review form" time="11.414">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user clicks the Leave A Review link....................................passed
+And user switches to the review window......................................passed
+And user clicks the Contact Directly button.................................passed
+And user filled all the fields..............................................passed
+Then the review form fields should contain the entered values...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Providers Page" name="Navigate to Providers page" time="9.12">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user clicks the Providers link.........................................passed
+Then the Providers page URL should contain "meet-our-providers".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Providers Page" name="Validate provider names are displayed - #1.1" time="9.978">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user navigates to the Providers page...................................passed
+Then the provider name "Jared Richardson, MD" should be displayed...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Providers Page" name="Validate provider names are displayed - #1.2" time="10.07">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user navigates to the Providers page...................................passed
+Then the provider name "Nancy Smith, FNP-C" should be displayed.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Providers Page" name="Validate provider names are displayed - #1.3" time="10.942">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user navigates to the Providers page...................................passed
+Then the provider name "Jessica Jones, PA-C" should be displayed............passed
+]]></system-out>
+</testcase>
+<testcase classname="Upstate Medical Associates Providers Page" name="Validate provider names are displayed - #1.4" time="10.04">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user navigates to the Providers page...................................passed
+Then the provider name "Ali Lawing, FNP-C" should be displayed..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Services Page Validation" name="Validate General Healthcare page" time="10.41">
+<system-out><![CDATA[
+Given user opens the Upstate Medical Associates website.....................passed
+When user clicks the Services menu..........................................passed
+And user clicks General Healthcare..........................................passed
+Then General Healthcare page should open....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Services Page Validation" name="Validate FAQs" time="8.476">
+<system-out><![CDATA[
+Given user navigate to FAQs section.........................................passed
+When user clicks the third FAQ..............................................passed
+Then the third FAQ answer should be displayed...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

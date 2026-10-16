@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-16T19:41:57 IST" name="Default suite" finished-at="2026-10-16T19:44:25 IST" duration-ms="147479">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-16T19:41:57 IST" name="Default test" finished-at="2026-10-16T19:44:25 IST" duration-ms="147479">
+      <class name="org.runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:41:57 IST" name="setUpClass" finished-at="2026-10-16T19:41:58 IST" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2262f0d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:41:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:42:07 IST" duration-ms="9169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Billing Information page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Billing Information"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:42:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:42:16 IST" duration-ms="8968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate prescription fee description"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Billing Information"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:42:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:42:28 IST" duration-ms="12339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Contact Us page and Google Map"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:42:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:42:40 IST" duration-ms="11472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Contact Us form fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:42:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:42:51 IST" duration-ms="10808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter and validate Contact Us form details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:42:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:04 IST" duration-ms="13208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the page title and Handle contact number alert"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["user need to navigate and verify the options in Upstate Medical Associates Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:15 IST" duration-ms="11419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Leave A Review form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["user need to navigate and verify the options in Upstate Medical Associates Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:24 IST" duration-ms="9127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Providers page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Providers Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:34 IST" duration-ms="9983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate provider names are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Providers Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:44 IST" duration-ms="10070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate provider names are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Providers Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:43:55 IST" duration-ms="10945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate provider names are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Providers Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:43:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:44:05 IST" duration-ms="10043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate provider names are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upstate Medical Associates Providers Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:44:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:44:16 IST" duration-ms="10422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate General Healthcare page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Services Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:44:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-16T19:44:24 IST" duration-ms="8483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate FAQs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Services Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.Runner@6c4906d3]" started-at="2026-10-16T19:44:24 IST" name="tearDownClass" finished-at="2026-10-16T19:44:25 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
